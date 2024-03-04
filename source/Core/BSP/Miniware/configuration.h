@@ -253,7 +253,7 @@
 #define VOLTAGE_DIV              650  // Default for TS80P with slightly different resistors
 #define CALIBRATION_OFFSET       1500 // the adc offset in uV
 #define PID_POWER_LIMIT          35   // Sets the max pwm power limit
-#define POWER_LIMIT              25   // 30 watts default power limit
+#define POWER_LIMIT              32   // 30 watts default power limit
 #define I2C_SOFT_BUS_2           1
 #define HARDWARE_MAX_WATTAGE_X10 320
 #define OLED_I2CBB1              1
