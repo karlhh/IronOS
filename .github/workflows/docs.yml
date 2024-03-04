@@ -4,8 +4,8 @@ name: Docs
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request
-  push:
-    branches: [ dev, docs ]
+  #push:
+  #  branches: [ dev, docs ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
