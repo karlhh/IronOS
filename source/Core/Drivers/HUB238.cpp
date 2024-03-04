@@ -120,7 +120,7 @@ uint8_t findBestPDO() {
   ilim              = hub238_getVoltagePDOCurrent(12);
   minimumx10current = Utils::RequiredCurrentForTipAtVoltage(120);
   if (ilim != 0 && (ilim / 10) >= minimumx10current) {
-    powerSupplyWattageLimit = ((12 * ilim) / 100) - 2; // We take off 2W for safety of overhead
+    powerSupplyWattageLimit = ((12 * ilim) / 100) + 10; // We take off 2W for safety of overhead
     return 0b0011;
   }
 #endif
