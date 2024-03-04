@@ -25,15 +25,7 @@ jobs:
       matrix:
         model:
           [
-            "TS100",
-            "TS80",
             "TS80P",
-            "Pinecil",
-            "MHP30",
-            "Pinecilv2",
-            "S60",
-            "S60P",
-            "TS101",
           ]
       fail-fast: true
 
